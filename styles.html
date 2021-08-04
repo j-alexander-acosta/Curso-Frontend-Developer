@@ -7,12 +7,28 @@
     <title>Document</title>
 </head>
 <style>
-    p {
+  /*p:first-child {
+        color: pink;
+    }
+    p:last-child {
         color: red;
+    }
+    p:nth-child(2n) {
+        color:green;
+    }
+    p:nth-child(2n+1) {
+        color:blue;
+    }*/
+    p::first-letter {
+        color: red;
+        font-size: 20px;
     }
 </style>
 <body>
-    <p>Hola Mundo Feliz</p>
-    <p>Hola Mundo</p>
+    <p>Conejo</p>
+    <p>🐶 Perro</p>
+    <p>🐄 Vaca</p>
+    <p>🐸 Sapo</p>
+    <p>🦊 Zorro</p>
 </body>
 </html>
